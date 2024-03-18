@@ -92,7 +92,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   font-size: 0.95rem;
-  font-family: figtree;
+  box-shadow: 15px 15px 0 2px rgba(0, 0, 0, 0.8);
 }
 
 .tpic {
@@ -133,6 +133,6 @@ h4 {
   font-size: 1rem;
 }
 
-p {
-  font-size: 1rem;
+.attribution {
+  margin-top: 5rem;
 }

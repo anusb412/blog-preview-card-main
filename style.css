@@ -88,10 +88,7 @@ select {
 body {
   background-color: var(--clr-primary);
   font-family: var(--ff-primary);
-  line-height: 1.25rem;
-}
-
-main {
+  line-height: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,9 +97,11 @@ main {
 .container {
   background-color: white;
   border: 0.5px solid black;
+  box-shadow: 10px 10px 5px black;
   border-radius: 1rem;
-  width: 20rem;
   padding: 1.25rem;
+  width: 20rem;
+  height: 50vh;
 }
 
 .toppic {
@@ -113,8 +112,8 @@ main {
   background-color: var(--clr-primary);
   width: 5rem;
   height: 1.75rem;
-  text-align: center;
   border-radius: 0.25rem;
+  margin-top: 1rem;
 }
 
 .published {
@@ -132,6 +131,11 @@ h1 {
   font-size: 1.25rem;
 }
 
+h1:hover {
+  color: var(--clr-primary);
+  cursor: pointer;
+}
+
 .desc {
   color: gray;
   font-weight: 500;
@@ -144,4 +148,15 @@ h1 {
 
 .gregpic {
   transform: scale(60%);
+}
+
+.greg > p {
+  position: relative;
+  top: 5px;
+}
+
+.learning > p {
+  position: relative;
+  top: 5px;
+  left: 15px;
 }
